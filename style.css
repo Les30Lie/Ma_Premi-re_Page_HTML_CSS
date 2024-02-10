@@ -1,0 +1,150 @@
+.image{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+article{
+      display: inline-flex;
+      flex-wrap: wrap;
+        width: 200px;
+    background-color: aliceblue; 
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 176, 30);
+}
+
+.title{
+   width: 20%;
+   height:100% ; 
+}
+.title h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+nav{
+    width: 80%;
+    height: 100%;
+}
+
+nav ul{
+    display: flex ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 120px;
+}
+
+nav ul li a:hover{
+    color: darkmagenta;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.active{
+    color: white;
+    font-weight: bold;
+}
+
+.welcome{
+    width: 100%;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    background-image: url('./image/ia.jpg');
+    background-size: cover;
+}
+
+.welcome h3{
+   padding-top: 110px;
+}
+
+.article{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.article li{
+    list-style: none;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post{
+    width: 100%;
+    height: auto;
+    border: black solid 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.post li img{
+    border-radius: 50%;
+}
+
+.post li{
+    list-style: none;
+    display: flex;
+}
+.post li label{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.post .post_contain{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+}
+
+.nav ul{
+    display: flex ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.nav ul li{
+    list-style: none;
+    margin-left: 150px;
+}
+
+.nav ul li a:hover{
+    color: white;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
